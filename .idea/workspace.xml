@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dd20b5f-1bd5-4995-a15a-45e85e3177f3" name="Changes" comment="Экземпляр Vue">
-      <change afterPath="$PROJECT_DIR$/proj/src/assets/vmSocks-blue-onWhite.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj/src/assets/vmSocks-green-onWhite.jpg" afterDir="false" />
+    <list default="true" id="2dd20b5f-1bd5-4995-a15a-45e85e3177f3" name="Changes" comment="Привязув атрибутов">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proj/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/proj/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj/src/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/proj/src/assets/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proj/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/proj/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707474850093</updated>
-      <workItem from="1707474851303" duration="3035000" />
+      <workItem from="1707474851303" duration="3941000" />
     </task>
     <task id="LOCAL-00001" summary="создане проекта">
       <option name="closed" value="true" />
@@ -86,7 +83,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707477036037</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Привязув атрибутов">
+      <option name="closed" value="true" />
+      <created>1707478419720</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707478419720</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +100,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="создане проекта" />
     <MESSAGE value="Экземпляр Vue" />
-    <option name="LAST_COMMIT_MESSAGE" value="Экземпляр Vue" />
+    <MESSAGE value="Привязув атрибутов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Привязув атрибутов" />
   </component>
 </project>
