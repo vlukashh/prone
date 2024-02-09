@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dd20b5f-1bd5-4995-a15a-45e85e3177f3" name="Changes" comment="Условный рендеринг">
+    <list default="true" id="2dd20b5f-1bd5-4995-a15a-45e85e3177f3" name="Changes" comment="Рендеринг списков">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proj/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/proj/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proj/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/proj/src/main.js" afterDir="false" />
@@ -57,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707474850093</updated>
-      <workItem from="1707474851303" duration="4595000" />
+      <workItem from="1707474851303" duration="5560000" />
     </task>
     <task id="LOCAL-00001" summary="создане проекта">
       <option name="closed" value="true" />
@@ -99,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707479345835</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Рендеринг списков">
+      <option name="closed" value="true" />
+      <created>1707479983318</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707479983318</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +118,7 @@
     <MESSAGE value="Экземпляр Vue" />
     <MESSAGE value="Привязув атрибутов" />
     <MESSAGE value="Условный рендеринг" />
-    <option name="LAST_COMMIT_MESSAGE" value="Условный рендеринг" />
+    <MESSAGE value="Рендеринг списков" />
+    <option name="LAST_COMMIT_MESSAGE" value="Рендеринг списков" />
   </component>
 </project>
