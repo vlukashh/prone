@@ -1,33 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dd20b5f-1bd5-4995-a15a-45e85e3177f3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/one/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/one/.vscode/extensions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/one/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/one/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/one/jsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/one/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/one/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/one/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/one/src/assets/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/one/src/assets/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/one/src/assets/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/one/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/one/src/components/TheWelcome.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/one/src/components/WelcomeItem.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/one/src/components/icons/IconCommunity.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/one/src/components/icons/IconDocumentation.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/one/src/components/icons/IconEcosystem.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/one/src/components/icons/IconSupport.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/one/src/components/icons/IconTooling.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/one/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/one/src/router/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/one/src/views/AboutView.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/one/src/views/HomeView.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/one/vite.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+    <list default="true" id="2dd20b5f-1bd5-4995-a15a-45e85e3177f3" name="Changes" comment="создане проекта">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/proj/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/proj/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +34,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2023.3.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -67,11 +52,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707474850093</updated>
-      <workItem from="1707474851303" duration="57000" />
+      <workItem from="1707474851303" duration="1840000" />
     </task>
+    <task id="LOCAL-00001" summary="создане проекта">
+      <option name="closed" value="true" />
+      <created>1707474929746</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707474929746</updated>
+    </task>
+    <task id="LOCAL-00002" summary="создане проекта">
+      <option name="closed" value="true" />
+      <created>1707474963151</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707474963151</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="создане проекта" />
+    <option name="LAST_COMMIT_MESSAGE" value="создане проекта" />
   </component>
 </project>
