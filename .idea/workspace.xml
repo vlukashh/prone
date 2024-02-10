@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dd20b5f-1bd5-4995-a15a-45e85e3177f3" name="Changes" comment="Компоненты">
+    <list default="true" id="2dd20b5f-1bd5-4995-a15a-45e85e3177f3" name="Changes" comment="Пользовательские события">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proj/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/proj/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proj/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/proj/src/main.js" afterDir="false" />
@@ -59,7 +59,7 @@
       <updated>1707474850093</updated>
       <workItem from="1707474851303" duration="16376000" />
       <workItem from="1707494223692" duration="50000" />
-      <workItem from="1707568548117" duration="3528000" />
+      <workItem from="1707568548117" duration="9062000" />
     </task>
     <task id="LOCAL-00001" summary="создане проекта">
       <option name="closed" value="true" />
@@ -141,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707569265126</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Пользовательские события">
+      <option name="closed" value="true" />
+      <created>1707572237962</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1707572237962</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +165,7 @@
     <MESSAGE value="Привязка классов и стилей" />
     <MESSAGE value="вычисляемые свойства" />
     <MESSAGE value="Компоненты" />
-    <option name="LAST_COMMIT_MESSAGE" value="Компоненты" />
+    <MESSAGE value="Пользовательские события" />
+    <option name="LAST_COMMIT_MESSAGE" value="Пользовательские события" />
   </component>
 </project>
