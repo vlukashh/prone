@@ -194,10 +194,11 @@ Vue.component('product', {
           <p v-else style="text-decoration: line-through">Out of Stock</p>
 
           <info-tabs :shipping="shipping" :details="details"></info-tabs>
+          
+          <p>{{sale}}</p>
           <ul>
             <li v-for="size in sizes">{{ size }}</li>
           </ul>
-          <p>{{sale}}</p>
           <div class="color-box" v-for="variant in variants" :key="variant.variantId" :style="{ backgroundColor:variant.variantColor }"
                @mouseover="updateProduct(variant.variantImage)">
           </div>
