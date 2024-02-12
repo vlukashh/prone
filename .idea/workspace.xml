@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dd20b5f-1bd5-4995-a15a-45e85e3177f3" name="Changes" comment="Фомы">
+    <list default="true" id="2dd20b5f-1bd5-4995-a15a-45e85e3177f3" name="Changes" comment="Вкладки, глобальная шина событий">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/proj/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proj/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/proj/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +34,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/CompUser/Desktop/proone&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -59,7 +61,9 @@
       <workItem from="1707474851303" duration="16376000" />
       <workItem from="1707494223692" duration="50000" />
       <workItem from="1707568548117" duration="11863000" />
-      <workItem from="1707635391403" duration="5001000" />
+      <workItem from="1707635391403" duration="5662000" />
+      <workItem from="1707738382455" duration="2610000" />
+      <workItem from="1707741389036" duration="3573000" />
     </task>
     <task id="LOCAL-00001" summary="создане проекта">
       <option name="closed" value="true" />
@@ -157,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707577951070</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Вкладки, глобальная шина событий">
+      <option name="closed" value="true" />
+      <created>1707640801649</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1707640801649</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +187,7 @@
     <MESSAGE value="Компоненты" />
     <MESSAGE value="Пользовательские события" />
     <MESSAGE value="Фомы" />
-    <option name="LAST_COMMIT_MESSAGE" value="Фомы" />
+    <MESSAGE value="Вкладки, глобальная шина событий" />
+    <option name="LAST_COMMIT_MESSAGE" value="Вкладки, глобальная шина событий" />
   </component>
 </project>

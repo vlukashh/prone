@@ -189,11 +189,15 @@ Vue.component('product', {
 
         <div class="product-info">
           <h1>{{ title }}</h1>
+          <a v-bind:href="link">More products like this</a>
           <p v-if="inStock">In stock</p>
           <p v-else style="text-decoration: line-through">Out of Stock</p>
 
           <info-tabs :shipping="shipping" :details="details"></info-tabs>
-          
+          <ul>
+            <li v-for="size in sizes">{{ size }}</li>
+          </ul>
+          <p>{{sale}}</p>
           <div class="color-box" v-for="variant in variants" :key="variant.variantId" :style="{ backgroundColor:variant.variantColor }"
                @mouseover="updateProduct(variant.variantImage)">
           </div>
@@ -205,6 +209,9 @@ Vue.component('product', {
           >
             Add to cart
           </button>
+          <button v-on:click="delCart"
+                  :disabled="!inStock"
+                  :class="{ disabledButton: !inStock }">Del cart</button>
         </div>
         <product-tabs :reviews="reviews"></product-tabs>
       </div>
@@ -216,7 +223,9 @@ Vue.component('product', {
             selectedVariant: 0,
             image: "src/assets/vmSocks-green-onWhite.jpg",
             altText: "A pair of socks",
+            link: "https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=socks",
             details: ['80% cotton', '20% polyester', 'Gender-neutral'],
+            sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL'],
             inStock: true,
             variants: [
                 {
@@ -233,7 +242,8 @@ Vue.component('product', {
                 }
             ],
             reviews: [],
-            cart: 0
+            cart: 0,
+            onSale: true,
         }
     },
     methods: {
@@ -246,6 +256,9 @@ Vue.component('product', {
 
         updateProduct(variantImage) {
             this.image = variantImage
+        },
+        delCart() {
+            this.$emit('del-from-cart',this.variants[this.selectedVariant].variantId);
         },
         addReview(productReview) {
             this.reviews.push(productReview)
@@ -262,6 +275,14 @@ Vue.component('product', {
                 return 2.99
             }
         },
+        sale: function() {
+            if (this.onSale) {
+                return `${this.brand} ${this.product} is on sale!`
+            } else {
+                return `${this.brand} ${this.product} is not on sale.`
+            }
+        }
+
         //image() {
         //    return this.variants[this.selectedVariant].variantImage;
         //},
@@ -286,7 +307,10 @@ let app = new Vue({
     methods: {
         updateCart(id) {
             this.cart.push(id)
-        }
+        },
+        delfromCart() {
+            this.cart.shift();
+        },
 
     }
 })
