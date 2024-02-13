@@ -54,6 +54,34 @@ button {
   height: 40px;
   width: 100px;
   font-size: 14px;
+  cursor: pointer;
+}
+.pulse {
+  transition: background 0.8s;
+}
+.pulse:hover {
+  background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+}
+.pulse:active {
+  background-color: #6eb9f7;
+  background-size: 100%;
+  transition: background 0s;
+}
+@keyframes flyToCart {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  100% {
+    transform: translate(1420px, -300px) scale(0.2);/* Примерное значение для перемещения */
+  }
+}
+
+/* Применение анимации при добавлении в корзину */
+.fly-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: flyToCart 1s ease forwards; /* Продолжительность анимации и тип */
 }
 
 .disabledButton {

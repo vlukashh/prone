@@ -182,9 +182,10 @@ Vue.component('product', {
 
     template: `
       <div class="product">
-        
-        <div class="product-image">
-          <img :src="image" :alt="altText"/>
+
+        <div class="product-image" style="position: relative;">
+          <img :src="image" :alt="altText" />
+          <img v-if="isAddedToCart" class="fly-image" :src="cartImage" :alt="altText" />
         </div>
 
         <div class="product-info">
@@ -202,17 +203,14 @@ Vue.component('product', {
           <div class="color-box" v-for="variant in variants" :key="variant.variantId" :style="{ backgroundColor:variant.variantColor }"
                @mouseover="updateProduct(variant.variantImage)">
           </div>
-          
-          <button
-              v-on:click="addToCart"
-              :disabled="!inStock"
-              :class="{ disabledButton: !inStock }"
-          >
-            Add to cart
-          </button>
-          <button v-on:click="delCart"
-                  :disabled="!inStock"
-                  :class="{ disabledButton: !inStock }">Del cart</button>
+
+          <button class="pulse"
+                  v-on:click="addToCart"    :disabled="!inStock"
+                  :class="{ disabledButton: !inStock }">
+            Add to cart</button>
+          <button class="pulse"    v-on:click="delCart"
+                  :disabled="!inStock"    :class="{ disabledButton: !inStock }">Del cart</button>
+
         </div>
         <product-tabs :reviews="reviews"></product-tabs>
       </div>
@@ -228,6 +226,8 @@ Vue.component('product', {
             details: ['80% cotton', '20% polyester', 'Gender-neutral'],
             sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL'],
             inStock: true,
+            isAddedToCart: false,
+            cartImage: null,
             variants: [
                 {
                     variantId: 2234,
@@ -250,6 +250,12 @@ Vue.component('product', {
     methods: {
         addToCart() {
             this.$emit('add-to-cart', this.variants[this.selectedVariant].variantId);
+            this.cartImage = this.image;
+            this.isAddedToCart = true; // Включаем анимацию добавления в корзину
+            setTimeout(() => {
+                this.isAddedToCart = false;
+                this.cartImage = null;// Выключаем анимацию после некоторого времени
+            }, 1000);
         },
         updateCart(id) {
             this.cart.push(id);

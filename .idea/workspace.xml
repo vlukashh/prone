@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dd20b5f-1bd5-4995-a15a-45e85e3177f3" name="Changes" comment="все готово">
+    <list default="true" id="2dd20b5f-1bd5-4995-a15a-45e85e3177f3" name="Changes" comment="все готово2ю0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/proj/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj/src/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/proj/src/assets/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proj/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/proj/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +64,8 @@
       <workItem from="1707568548117" duration="11863000" />
       <workItem from="1707635391403" duration="5662000" />
       <workItem from="1707738382455" duration="2610000" />
-      <workItem from="1707741389036" duration="4992000" />
+      <workItem from="1707741389036" duration="5662000" />
+      <workItem from="1707849484481" duration="3665000" />
     </task>
     <task id="LOCAL-00001" summary="создане проекта">
       <option name="closed" value="true" />
@@ -176,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707745851078</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="все готово2ю0">
+      <option name="closed" value="true" />
+      <created>1707747785066</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1707747785066</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +207,7 @@
     <MESSAGE value="Фомы" />
     <MESSAGE value="Вкладки, глобальная шина событий" />
     <MESSAGE value="все готово" />
-    <option name="LAST_COMMIT_MESSAGE" value="все готово" />
+    <MESSAGE value="все готово2ю0" />
+    <option name="LAST_COMMIT_MESSAGE" value="все готово2ю0" />
   </component>
 </project>
