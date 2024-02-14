@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dd20b5f-1bd5-4995-a15a-45e85e3177f3" name="Changes" comment="все готово2ю0">
+    <list default="true" id="2dd20b5f-1bd5-4995-a15a-45e85e3177f3" name="Changes" comment="доп задание">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proj/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/proj/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj/src/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/proj/src/assets/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proj/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/proj/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +34,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/CompUser/Desktop/proone&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/CompUser/Desktop/prtwo&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -65,7 +64,9 @@
       <workItem from="1707635391403" duration="5662000" />
       <workItem from="1707738382455" duration="2610000" />
       <workItem from="1707741389036" duration="5662000" />
-      <workItem from="1707849484481" duration="3665000" />
+      <workItem from="1707849484481" duration="5909000" />
+      <workItem from="1707856124572" duration="183000" />
+      <workItem from="1707903068577" duration="1174000" />
     </task>
     <task id="LOCAL-00001" summary="создане проекта">
       <option name="closed" value="true" />
@@ -187,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707747785066</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="доп задание">
+      <option name="closed" value="true" />
+      <created>1707853476771</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1707853476771</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +217,7 @@
     <MESSAGE value="Вкладки, глобальная шина событий" />
     <MESSAGE value="все готово" />
     <MESSAGE value="все готово2ю0" />
-    <option name="LAST_COMMIT_MESSAGE" value="все готово2ю0" />
+    <MESSAGE value="доп задание" />
+    <option name="LAST_COMMIT_MESSAGE" value="доп задание" />
   </component>
 </project>

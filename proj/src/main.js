@@ -200,14 +200,20 @@ Vue.component('product', {
           <ul>
             <li v-for="size in sizes">{{ size }}</li>
           </ul>
-          <div class="color-box" v-for="variant in variants" :key="variant.variantId" :style="{ backgroundColor:variant.variantColor }"
-               @mouseover="updateProduct(variant.variantImage)">
+          <div class="color-box"
+               v-for="(variant, index) in variants"
+               :key="variant.variantId"
+               :style="{ backgroundColor: variant.variantColor }"
+               @mouseover="updateProduct(index)"
+          >
           </div>
 
-          <button class="pulse"
-                  v-on:click="addToCart"    :disabled="!inStock"
-                  :class="{ disabledButton: !inStock }">
-            Add to cart</button>
+          <button class="pulse" v-on:click="addToCart"
+                  :disabled="!inStock"
+                  :class="{ disabledButton: !inStock }"
+          >
+            Add to cart
+          </button>
           <button class="pulse"    v-on:click="delCart"
                   :disabled="!inStock"    :class="{ disabledButton: !inStock }">Del cart</button>
 
@@ -220,12 +226,12 @@ Vue.component('product', {
             product: "Socks",
             brand: 'Vue Mastery',
             selectedVariant: 0,
-            image: "src/assets/vmSocks-green-onWhite.jpg",
+            //image: "src/assets/vmSocks-green-onWhite.jpg",
             altText: "A pair of socks",
             link: "https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=socks",
             details: ['80% cotton', '20% polyester', 'Gender-neutral'],
             sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL'],
-            inStock: true,
+            //inStock: true,
             isAddedToCart: false,
             cartImage: null,
             variants: [
@@ -261,8 +267,8 @@ Vue.component('product', {
             this.cart.push(id);
         },
 
-        updateProduct(variantImage) {
-            this.image = variantImage
+        updateProduct: function(index) {
+            this.selectedVariant = index
         },
         delCart() {
             this.$emit('del-from-cart',this.variants[this.selectedVariant].variantId);
@@ -274,6 +280,12 @@ Vue.component('product', {
     computed: {
         title() {
             return this.brand + ' ' + this.product;
+        },
+        image() {
+            return this.variants[this.selectedVariant].variantImage
+        },
+        inStock(){
+            return this.variants[this.selectedVariant].variantQuantity
         },
         shipping() {
             if (this.premium) {
